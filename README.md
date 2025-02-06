@@ -26,7 +26,7 @@ installed. You will also need the following libraries (minimum versions in brack
 Clone the Spacewalk repository to your local machine using Git.
 You can install all dependecies by running the following commands:
 
-```
+```python
 python3 -m pip install -r src/requirements.txt
 ```
 To ensure everything is working correctly you can run the test suite using pytest:
@@ -39,7 +39,7 @@ python3 -m pytest tests
 You can run the analysis in the `eva_data_analysis.py` file via the command line using the following syntax:
 The following example can be run from the root of this repository:
 
-```
+```python
 python3 src/eva_data_analysis data/raw/eva_data.json data/processed/eva_data.csv
 ```
 
